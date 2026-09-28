@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ============ EDIT THIS: browser tab title ============ -->
+<title>EAWR TECH NEEDS</title>
+<style>
+  :root {
+    --bg: #f5f6f8;
+    --text: #1c2330;
+    --muted: #5b6577;
+    --tile: #ffffff;
+    --border: #d9dde5;
+    --accent: #2b59c3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14181f;
+      --text: #eef0f4;
+      --muted: #9aa4b5;
+      --tile: #63020d;
+      --border: #f5e900;
+      --accent: #f5e900;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.4;
+  }
+  main { max-width: 900px; margin: 0 auto; padding: 40px 20px 60px; }
+  h1 { font-size: 2rem; margin: 0 0 6px; }
+  .subtitle { color: var(--muted); margin: 0 0 32px; font-size: 1.05rem; }
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+  }
+  .tile {
+    display: block;
+    padding: 22px 20px;
+    background: var(--tile);
+    border: 1px solid var(--border);
+    border-left: 5px solid var(--accent);
+    border-radius: 8px;
+    color: inherit;
+    text-decoration: none;
+  }
+  .tile:hover, .tile:focus-visible { border-color: var(--accent); outline: none; box-shadow: 0 0 0 2px var(--accent); }
+  .tile-title { display: block; font-size: 1.15rem; font-weight: 600; }
+  .tile-desc { display: block; margin-top: 6px; color: var(--muted); font-size: .95rem; }
+</style>
+</head>
+<body>
+<main>
+
+  <!-- ============ EDIT THIS: page title and subtitle ============ -->
+  <h1>Technology Options</h1>
+  <p class="subtitle">Please click an option below to receive assistance.</p>
+
+  <div class="tiles">
+
+    <!-- ==========================================================
+         TO ADD A BUTTON: copy everything from "TILE START" to
+         "TILE END", paste it right below the last tile, then
+         change the three things marked EDIT.
+         ========================================================== -->
+
+    <!-- TILE START -->
+    <a class="tile" href="https://docs.google.com/forms/d/e/1FAIpQLSfgB9Px_vM3mobbiw3JXIUzP9uERVjVnOqgbnDoMr1UnSpWyA/viewform?usp=sharing&ouid=117674765771394142048/viewform" target="_blank" rel="noopener"> <!-- EDIT: form link (keep the quotes) -->
+      <span class="tile-title">Reserve College and Career Center</span> <!-- EDIT: button title -->
+      <span class="tile-desc">Fill out the form to plan a time in the CCC.  Let us know if you need to use the boards to present or have any technology needs.</span> <!-- EDIT: short description (or delete this whole line) -->
+    </a>
+    <!-- TILE END -->
+
+    <!-- TILE START -->
+    <a class="tile" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID-3/viewform" target="_blank" rel="noopener"> <!-- EDIT: form link -->
+      <span class="tile-title">Reserve Auditorium</span> <!-- EDIT: button title -->
+      <span class="tile-desc">Reserve a time in the Auditorium, let us know if you need mics, to present on the projector or anything else.</span> <!-- EDIT: description -->
+    </a>
+    <!-- TILE END -->
+
+ <!-- TILE START -->
+    <a class="tile" href="https://docs.google.com/forms/d/e/1FAIpQLScMtDGf7_7xtAhlXlNbbpXqCbJwcP6JfLPLP7mSZ4vNI_qwow/viewform?usp=sharing&ouid=117674765771394142048/viewform" target="_blank" rel="noopener"> <!-- EDIT: form link (keep the quotes) -->
+      <span class="tile-title">Technology Issues</span> <!-- EDIT: button title -->
+      <span class="tile-desc">This form is for submitting technology issues.  Things that are important issues you can still call us.</span> <!-- EDIT: short description (or delete this whole line) -->
+    </a>
+    <!-- TILE END -->
+
+    
+  </div>
+</main>
+</body>
+</html>
